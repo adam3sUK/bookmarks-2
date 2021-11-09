@@ -11,10 +11,6 @@ class BookmarkManager < Sinatra::Base
     erb :index
   end
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f8b36ece0d80c3e45b9d42417871b56d35825621
   get '/bookmarks' do
     @bookmarks = Bookmarks.all
     erb :bookmarks

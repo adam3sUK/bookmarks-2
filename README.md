@@ -34,5 +34,5 @@ I would like to see a list of my bookmarks
 - Test driving development of a web application :white_check_mark:
 
 #### Challenge 4
-- Install PostgreSQL
-- Create a database
+- Install PostgreSQL :white_check_mark:
+- Create a database :white_check_mark:
