@@ -4,7 +4,7 @@ I would like to see a list of my bookmarks`
 
 # Bookmark domain model
 
-![Uploading Screenshot 2021-11-09 at 10.37.03.png…]()
+<img width="1229" alt="Screenshot 2021-11-09 at 10 42 17" src="https://user-images.githubusercontent.com/75947453/140900410-26f585d9-6191-4f89-a9bc-479a378e7d6c.png">
 
 User-->client:Click "Show bookmarks" button
 
