@@ -36,3 +36,28 @@ I would like to see a list of my bookmarks
 #### Challenge 4
 - Install PostgreSQL :white_check_mark:
 - Create a database :white_check_mark:
+
+#### Challenge 5
+- Use the `psql` command to interact with Postgres :white_check_mark:
+- Create tables using SQL :white_check_mark:
+
+##### To set up the database
+
+1) Connect to `psql` and create the `bookmark_manager` database:
+
+```
+CREATE DATABASE bookmark_manager;
+```
+
+To set up the appropriate tables, connect to the database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order.
+
+##### To run the Bookmark Manager app:
+
+```
+rackup -p 3000
+```
+
+To view bookmarks, navigate to `localhost:3000/bookmarks`.
+
+##### To run tests:
+run db/migrations/01_create_bookmarks_table.sql
